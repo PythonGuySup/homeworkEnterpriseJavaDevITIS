@@ -9,7 +9,6 @@ public class Main {
 		int maxElemIndex = 0;
 		
 		Scanner scan = new Scanner(System.in);
-		
 		inputInteger = scan.nextInt();
 		
 		for (int i=0; i<=200; i++) {
@@ -17,7 +16,6 @@ public class Main {
 		}
 		
 		while (inputInteger != -1) {
-			
 			formattedInteger = inputInteger + 100;
 			array[formattedInteger] += 1;
 			
