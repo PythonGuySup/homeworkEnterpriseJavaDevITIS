@@ -10,11 +10,7 @@ public class Main {
 		
 		Scanner scan = new Scanner(System.in);
 		inputInteger = scan.nextInt();
-		
-		for (int i=0; i<=200; i++) {
-			array[i] = 0;
-		}
-		
+
 		while (inputInteger != -1) {
 			formattedInteger = inputInteger + 100;
 			array[formattedInteger] += 1;
